@@ -1,0 +1,27 @@
+#######################
+# GenOS Build Scripts #
+#######################
+
+These scripts allow you to create a custom build of GenOS with your own predefined settings, applications, etc.
+
+----------Â|
+How To Use
+----------
+
+First, grab a fresh copy of the latest GenOS. Install it in your computer or in a virtual machine.
+
+You can now customize the installed system as you want the custom build to be. Keep in mind to not install any video drivers.
+
+Time to start building. 
+
+If you want to include the changes you made to your user account like icons and widgets, change to this directory and run in a terminal window:
+
+sh 1_prepare_user.sh
+
+After it is done (or if you didn't want to do it) run in a terminal window:
+
+sh 2_build_iso.sh
+
+Wait some minutes and you'll have a nice build.iso in your home folder when it's done.
+
+Burn it or run it in a virtual machine to make sure it works as desired and enjoy :)
