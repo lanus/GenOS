@@ -24,7 +24,7 @@ sudo chown root:root Videos
 cd .kde
 sudo rm -R cache* socket* tmp*
 cd share/apps
-sudo rm -R amarok kate kconf_update RecentDocuments klipper konsole nepomuk
+sudo rm -R amarok kate kconf_update RecentDocuments klipper konsole nepomuk kfileplaces
 cd ../config
 sudo rm amarokrc arkrc k3brc katerc ksmserverrc startupconfigfiles klipperrc
 sudo rm -R session
