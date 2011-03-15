@@ -13,6 +13,7 @@ sudo mkdir Music
 sudo mkdir Pictures
 sudo mkdir Public
 sudo mkdir Templates
+sudo mkdir Desktop
 sudo mkdir Videos
 sudo chown root:root Documents
 sudo chown root:root Downloads
@@ -20,6 +21,7 @@ sudo chown root:root Music
 sudo chown root:root Pictures
 sudo chown root:root Public
 sudo chown root:root Templates
+sudo chwon root:root Desktop
 sudo chown root:root Videos
 cd .kde
 sudo rm -R cache* socket* tmp*
