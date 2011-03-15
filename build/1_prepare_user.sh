@@ -1,4 +1,6 @@
 echo "Preparing the default user"
+sudo rm -R /etc/skel/.kde
+sudo rm -R /etc/skel/.config
 cd ~
 sudo cp -R .kde /etc/skel/.kde
 sudo cp -R .config /etc/skel/.config
