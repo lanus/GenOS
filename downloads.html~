@@ -1,131 +1,66 @@
-<!--
-Copyright © 2011 Ivo Nunes
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Library General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
-
-You may use and distribute this software under the terms of the
-GNU General Public License, version 3 or later 
--->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<meta name="Description" content="GenOS is a Linux distribution which is easy to use and fast." />
-<meta name="Keywords" content="genos, linux, easy, distro, fast" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="Distribution" content="Global" />
-<meta name="Robots" content="index,follow" />
-
-<link rel="stylesheet" href="images/GenOS.css" type="text/css" />
-
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>GenOS</title>
-	
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
-
 <body>
-<!-- wrap starts here -->
-<div id="wrap">
-
-	<div id="header"><div id="header-content">	
-		
-		<h1 id="logo"><a href="index.html" title=""><img src="images/logo.png"></a></h1>			
-		<!-- Menu Tabs -->
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="downloads.html" id="current">Downloads</a></li>
-            <li><a href="https://github.com/lanus/GenOS/issues">Issues</a></li>
-			<li><a href="https://github.com/lanus/GenOS/wiki">Wiki</a></li>
-			<li><a href="getinvolved.html">Get Involved</a></li>			
-		</ul>		
-			
-	
-	</div></div>
-					
-	<!-- content-wrap starts here -->
-	<div id="content-wrap"><div id="content">		
-		
-		<div id="sidebar" >
-		
-			<div class="sidebox">
-			
-				<h1>About</h1>
-				
-				<p>GenOS is a Linux distribution.</p>
-                <p>It's goal is to be easy to use and fast.</p>
-                <p>It is easy to switch from another operating system to GenOS thanks to it's intuitive interface and compatibility.</p>
-						
-			</div>			
-			
-			<div class="sidebox">	
-			
-				<h1>Open source</h1>
-				<p>We believe every user should be free to download, change and share their software for any purpose.</p>
-                <p>Because of that, GenOS is built with open source software.</p>					
-					
-			</div>		
-					
-		</div>	
-	
-		<div id="main">		
-		
-			<div class="post">
-			
-				<a name="Downloads"></a>	
-				<h1>Downloads</h1>
-                
-				<p>Beta 1: <a href="https://github.com/downloads/lanus/GenOS/genos_beta.iso">Download</a></p>
-				
-			</div>
-										
-		</div>					
-		
-	<!-- content-wrap ends here -->		
-	</div></div>
-
-<!-- footer starts here -->	
-<div id="footer"><div id="footer-content">
-	
-		<div class="col float-left">
-			<h1>Site Partners</h1>
-			<ul>				
-				<li><a href="http://www.github.com/"><strong>GitHub</strong> - Project Hosting</a></li>
-			</ul>			
-		</div>
-		
-		<div class="col float-left">
-			<h1>Links</h1>
-			<ul>				
-				<li><a href="http://www.kde.org/">kde.org</a></li>
-				<li><a href="http://www.koffice.org/">koffice.org</a></li>				
-			</ul>			
-		</div>		
-	
-		<div class="col2 float-right">
-		<p>
-		&copy; copyright 2011 <strong>GenOS</strong><br /> 
-		Design by: <a href="index.html"><strong>styleshout</strong></a> &nbsp; &nbsp;
-		</p>
-
-		</div>
-	
-</div></div>
-<!-- footer ends here -->
-	
-<!-- wrap ends here -->
+<div id="logo">
+	<h1><a href="index.html"><img src="images/logo.png"></a></h1>
 </div>
-
+<div id="menu">
+	<ul>
+		<li class="first"><a href="index.html" accesskey="1" title="">Home</a></li>
+		<li><a href="screenshots.html" accesskey="2" title="">Screenshots</a></li>
+		<li><a href="http://community.gen-os.info" accesskey="3" title="">Community</a></li>
+		<li><a href="downloads.html" accesskey="4" title="">Downloads</a></li>
+		<li><a href="https://github.com/lanus/GenOS/issues" accesskey="5" title="">Issues</a></li>
+		<li><a href="https://github.com/lanus/GenOS/wiki" accesskey="6" title="">Wiki</a></li>
+		<li><a href="donations.html" accesskey="7" title="">Donations</a></li>
+	</ul>
+</div>
+<hr />
+<div id="banner"><img src="images/img04.jpg" alt="" width="960" height="147" /></div>
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<div class="post">
+			<h2 class="title">Downloads</h2>
+			<div class="entry">
+				<p>Beta 1: <a href="https://github.com/downloads/lanus/GenOS/genos_beta.iso">Download</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<ul>
+			<li>
+				<h2>About</h2>
+				<p>GenOS is a Linux distribution. <br>It's goal is to be easy to use and fast. <br>It is easy to switch from another operating system to GenOS thanks to it's intuitive interface and compatibility.</p>
+			</li>
+			<li>
+				<h2>Open source</h2>
+				<p>We believe every user should be free to download, change and share their software for any purpose.<br>Because of that, GenOS is built with open source software.</p>
+			</li>
+		</ul>
+	</div>
+	<!-- end sidebar -->
+</div>
+<!-- end page -->
+<div id="footer">
+	<p class="legal">Copyright (C) 2011 GenOS. All rights reserved.</p>
+	<p class="credit">Designed by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> + <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
+</div>
 </body>
 </html>
