@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import sys
+import os
+
+repository = sys.argv[1]
+
+os.system("cd /etc; sed -i 's/DISTRIB_ID=GenOS/DISTRIB_ID=Ubuntu/g' lsb-release; sed -i 's/DISTRIB_CODENAME=GenOS/DISTRIB_CODENAME=maverick/g' lsb-release")
+os.system("add-apt-repository " + repository)
+os.system("cd /etc; sed -i 's/DISTRIB_ID=Ubuntu/DISTRIB_ID=GenOS/g' lsb-release; sed -i 's/DISTRIB_CODENAME=maverick/DISTRIB_CODENAME=GenOS/g' lsb-release")
