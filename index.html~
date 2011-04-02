@@ -29,11 +29,18 @@ Released for free under a Creative Commons Attribution 2.5 License
 	</ul>
 </div>
 <hr />
-<div id="banner"><img src="images/img04.jpg" alt="" width="960" height="147" /></div>
+<div id="banner"><a href="downloads.html"><img src="images/img04.jpg" alt="" width="960" height="147" /></a></div>
 <!-- start page -->
 <div id="page">
 	<!-- start content -->
 	<div id="content">
+        <div class="post">
+            <h2 class="title">Beta 2</h2>
+            <div class="entry">
+                <p>The second beta version of GenOS is here.<br>The interface is now more polished.<br>The kernel has been updated to 2.6.38.<br>Amarok has been replaced by Clementine.<br>iPhone users can now sync their songs with GenOS.<br>Some Windows applications and games are now installable through Software Manager, with more supported applications coming soon.<br>Download is available through the Downloads page. If you want to upgrade from beta 1, upgrade instructions are available on the wiki. Please note we highly recommend to upgrade.</p>
+            </div>
+            <p class="meta">Posted by lanus</p>
+        </div>
 		<div class="post">
 			<h2 class="title">Beta 1</h2>
 			<div class="entry">
@@ -67,7 +74,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 </div>
 <!-- end page -->
 <div id="footer">
-	<p class="legal">Copyright (c) 2007 Website Name. All rights reserved.</p>
+	<p class="legal">Copyright (C) 2011 GenOS. All rights reserved.</p>
 	<p class="credit">Designed by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> + <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
 </div>
 </body>
