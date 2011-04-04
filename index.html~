@@ -46,6 +46,13 @@ document.write( b[i] )
 	<!-- start content -->
 	<div id="content">
         <div class="post">
+            <h2 class="title">GenOS USB Creator</h2>
+            <div class="entry">
+                <p>We are happy to announce that the GenOS USB Creator has been released!<br>The USB Creator allows you to create bootable USB drives from where you can install GenOS or use it.<br>It has a Persistent option so that you can save your documents on your USB drive without loosing them.<br>We hope you enjoy the GenOS USB Creator :) </p>
+            </div>
+            <p class="meta">Posted by lanus</p>
+        </div>
+        <div class="post">
             <h2 class="title">Beta 2</h2>
             <div class="entry">
                 <p>The second beta version of GenOS is here.<br>The interface is now more polished.<br>The kernel has been updated to 2.6.38.<br>Amarok has been replaced by Clementine.<br>iPhone users can now sync their songs with GenOS.<br>Some Windows applications and games are now installable through Software Manager, with more supported applications coming soon.<br>Download is available through the Downloads page. If you want to upgrade from beta 1, upgrade instructions are available on the wiki. Please note we highly recommend to upgrade.</p>
@@ -55,7 +62,7 @@ document.write( b[i] )
 		<div class="post">
 			<h2 class="title">Beta 1</h2>
 			<div class="entry">
-				<p>After a lot of testing on the alpha version of GenOS, we got a good list of things to change.<br>While maintaining the good features, the interface has received lots of changes to be more enjoyable and easier to use.<br>Some games are now included by default and much more games are now available in the online repositories.<br>We also include OpenJDK for Java support.<br>Download is already available. If you want to upgrade from alpha 2, upgrade instructions are available from the wiki. Please note these are unsupported and may be buggy.</p>
+				<p>After a lot of testing on the alpha version of GenOS, we got a good list of things to change.<br>While maintaining the good features, the interface has received lots of changes to be more enjoyable and easier to use.<br>Some games are now included by default and much more games are now available in the online repositories.<br>We also include OpenJDK for Java support.<br>Download is already available.</p>
 			</div>
 			<p class="meta">Posted by lanus</p>
 		</div>
