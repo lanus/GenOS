@@ -29,7 +29,18 @@ Released for free under a Creative Commons Attribution 2.5 License
 	</ul>
 </div>
 <hr />
-<div id="banner"><a href="downloads.html"><img src="images/img04.jpg" alt="" width="960" height="147" /></a></div>
+<div id="banner">
+
+<SCRIPT LANGUAGE="Javascript">
+function banner() { } ; b = new banner() ; n = 0
+b[n++]= "<A HREF='iso.html'><IMG name=randimg SRC='images/img04.jpg' border='0'></A>"
+b[n++]= "<A HREF='usb.html'><IMG name=randimg SRC='images/img10.jpg' border='0'></A>"
+i=Math.floor(Math.random() * n) ;
+document.write( b[i] )
+</SCRIPT>
+
+
+</div>
 <!-- start page -->
 <div id="page">
 	<!-- start content -->
